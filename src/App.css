@@ -1,0 +1,21 @@
+* {
+    color: #fff;
+}
+
+
+.circle {
+    width: 750px;
+    height: 750px;
+}
+
+.square {
+    width: 350px;
+    height: 350px;
+}
+
+
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
