@@ -20,10 +20,12 @@ const getSingleItem = async (req, res) => {
 const createSingleItem = async (req, res) => {
   try {
     const item = new Items({
-      name: req.body.name,
-      quantity: req.body.count,
+      type: req.body.type,
+      quantity: req.body.quantity,
+      description: req.body.description,
       condition: req.body.condition,
-      description: req.body.location,
+      location: req.body.location,
+      zipcode: req.body.zipcode,
     });
 
     console.log(req.body, "BODIED");

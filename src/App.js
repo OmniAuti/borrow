@@ -5,6 +5,7 @@ import About from "./components/About";
 import Footer from "./components/Footer";
 import SupplyDump from "./components/SupplyDump";
 import OurGoal from "./components/OurGoal";
+import PostItem from "./components/PostItem";
 
 function App() {
 
