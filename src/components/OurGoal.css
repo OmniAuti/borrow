@@ -1,0 +1,35 @@
+.borrow-container {
+    background-image: url(/public/imgs/borrow.svg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100px;
+    width:100px;
+ 
+  
+}
+.offer-container {
+    background-image: url(/public/imgs/offer.svg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100px;
+    width:100px;
+ 
+  
+}
+.ask-container {
+    background-image: url(/public/imgs/asking.svg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 90px;
+    width:90px;
+ 
+  
+}
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;

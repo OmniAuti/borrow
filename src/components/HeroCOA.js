@@ -9,8 +9,10 @@ const HeroCOA = () => {
     { id: 2, item: "notebook", color: "text-blue-500" },
     { id: 3, item: "highlighter", color: "text-green-500" },
     { id: 4, item: "binder", color: "text-yellow-500" },
-    { id: 5, item: "ruler", color: "text-purple-500" },
+    { id: 5, item: "ruler", color: "text-pink-500" },
     { id: 6, item: "calculator", color: "text-slate-500" },
+    { id: 7, item: "backpack", color: "text-purple-500" },
+
   ];
 
   const [word, setWord] = useState([]);
@@ -73,7 +75,7 @@ const HeroCOA = () => {
   return (
     <section className="">
       <div className="w-1/2 h-2/3 relative">
-        <h1 className="text-8xl text- font-extralight tracking-wide pl-24 pt-24">
+        <h1 className="text-8xl font-extralight tracking-wide pl-24 pt-24">
           <div>
             Can I <br></br>borrow<br></br>a
             <div
@@ -98,7 +100,7 @@ const HeroCOA = () => {
         </h1>
       </div>
       <p className="my-10 pl-24 italic tracking-wide font-thin text-xl">
-        An easy and effortless community resource for those who are 
+        An easy and effortless community resource for those who are
         <br></br>struggling to get the supplies they need to succeed in school
       </p>
       <div className="w-1/2 flex item-center justify-center">

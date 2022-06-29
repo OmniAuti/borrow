@@ -2,6 +2,10 @@
     color: #fff;
 }
 
+body, html {
+    scroll-behavior: smooth;
+}
+
 
 .circle {
     width: 750px;

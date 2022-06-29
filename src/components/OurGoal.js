@@ -1,19 +1,30 @@
+import style from './OurGoal.css'
+
 const OurGoal = () => {
   return (
-    <article className="h-96 container text-center">
-      <h2 className="text-center text-5xl mt-5">Our Goal</h2>
-      <p>
-        The goal of this website is to not only bring awareness to the poor funding that
-        many schools throughout the country experience and to help the families
-        that can't afford supplies for their children.
-        <br></br>
-        The Goverment has failed us. <br></br>
-        The school boards have failed us. <br></br>
-        The teacher's unions have faild us. <br></br>
-
-        The job is up local communities to help out those that need ask for it.
+    <section className="h-96  mx-auto">
+      <h2 className="text-center text-5xl mt-10 mb-5 font-light">The Goal</h2>
+      <p className="font-thin text-center text-2xl w-1/2 mx-auto mb-5">
+        A free resource to connect families and teachers with those that can afford to help their community.
       </p>
-    </article>
+      <div className="flex items-center justify-around">
+        <div className="flex items-center justify-center flex-col w-1/3 p-5">
+          <div className="borrow-container my-3"></div>
+          <p className="text-2xl">Borrow</p>
+          <p className="font-thin">Browse supplies in your area</p>
+        </div>
+        <div className="flex items-center justify-center flex-col w-1/3 mx-5 p-5">
+          <div className="offer-container my-3"></div>
+          <p className="text-2xl">Offer</p>
+          <p className="font-thin">Post supplies that you have to offer</p>
+        </div>
+        <div className="flex items-center justify-center flex-col w-1/3 p-5">
+          <div className="ask-container my-3"></div>
+          <p className="text-2xl">Ask</p>
+          <p className="font-thin">Post an ad looking for a specific school supplies</p>
+        </div>
+      </div>
+    </section>
   );
 };
 
