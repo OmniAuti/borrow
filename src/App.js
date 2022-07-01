@@ -1,23 +1,31 @@
 import "./App.css";
-import HeroCOA from "./components/HeroCOA";
+
+import { Routes, Route } from "react-router-dom";
+
 import Header from "./components/Header";
-import About from "./components/About";
 import Footer from "./components/Footer";
-import SupplyDump from "./components/SupplyDump";
-import OurGoal from "./components/OurGoal";
-import PostItem from "./components/PostItem";
+import Home from "./components/Home";
+import Borrow from "./components/Borrow";
+import Ask from "./components/Ask";
+import Offer from "./components/Offer";
+import AboutPage from "./components/AboutPage";
+//WRAP FOR SCROLL TO TOP ON NEW ROUTE
+import ScrollToTop from "./components/ScrollToTop";
 
 function App() {
-
-
   return (
     <>
-      <main className="App bg-black h-full w-screen px-5 pb-5 relative">
-        <Header />
-        <HeroCOA />
-        <About />
-        <OurGoal/>
-        <SupplyDump/>
+      <Header />
+      <main className="App bg-black h-full min-h-screen w-screen px-5 py-5 relative">
+        <ScrollToTop>
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/about" element={<AboutPage />} />
+            <Route path="/borrow" element={<Borrow />} />
+            <Route path="/offer" element={<Offer />} />
+            <Route path="/ask" element={<Ask />} />
+          </Routes>
+        </ScrollToTop>
       </main>
       <Footer />
     </>

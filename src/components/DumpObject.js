@@ -29,10 +29,10 @@ const DumpObject = ({ data }) => {
   }
 
   return (
-    <div className=" w-1/3 rounded-md my-2 p-2 h-96">
+    <div className="w-[calc(33%-25px)] rounded-md my-5 p-1 h-96" style={{ backgroundColor: cardBgColor }}>
        <div
         className=" bg-white w-full h-full rounded-md p-5"
-        style={{ outline: `5px solid ${cardBgColor}` }}
+        
       >
         <img
           className="h-1/2 w-3/4 mx-auto object-contain"
@@ -44,7 +44,8 @@ const DumpObject = ({ data }) => {
           <li className="text-black m-1">Quantity: {data.quantity}</li>
           <li className="text-black m-1">Description: {data.description}</li>
           <li className="text-black m-1">Condition: {data.condition}</li>
-          <li className="text-black m-1">Location: {data.location} ZIP: {data.zipcode}</li>
+          <li className="text-black m-1">Location: {data.location}</li>
+          <li className="text-black m-1">Zipcode: {data.zipcode}</li>
         </ul>
       </div>
     </div>

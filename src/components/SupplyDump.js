@@ -11,9 +11,9 @@ const SupplyDump = () => {
   }, []);
 
   return (
-    <section className=" w-full container overflow-hidden mx-auto">
-      <h3 className="text-center text-3xl mt-4">Supplies In Your Area</h3>
-      <div className="flex  items-center justify-between flex-wrap">
+    <section className="mt-24 w-full h-full overflow-hidden px-5 bg-sky-900 rounded-md my-24">
+      <h3 className="text-center text-3xl mt-4 font-light" >Supplies In Your Area</h3>
+      <div className="flex items-center justify-around flex-wrap mb-10">
         {dumpData.length <= 0 ? (
           <div className="h-72 mt-10 mx-auto text-center">
             <h2 className="text-2xl my-5">

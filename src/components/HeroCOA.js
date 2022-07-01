@@ -75,7 +75,7 @@ const HeroCOA = () => {
   return (
     <section className="">
       <div className="w-1/2 h-2/3 relative">
-        <h1 className="text-8xl font-extralight tracking-wide pl-24 pt-24">
+        <h1 className="text-8xl font-extralight tracking-wide pl-24 pt-16">
           <div>
             Can I <br></br>borrow<br></br>a
             <div

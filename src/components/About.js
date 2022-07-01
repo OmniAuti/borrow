@@ -2,8 +2,8 @@ import styles from './About.css'
 
 const About = () => {
   return (
-    <article id="about" className="w-screen container mx-auto scroll-mt-5">
-      <div className="h-72 mt-36 bg-sky-900 mx-auto rounded-md grid grid-cols-2 grid-rows-2 mb-4 relative">
+    <article id="about-home" className=" mx-auto scroll-mt-5">
+      <div className="h-80 w-3/4 mt-36 bg-sky-900 mx-auto rounded-md grid grid-cols-2 grid-rows-2 mb-4 relative">
         <div
           className="col-span-1 row-span-2 flex flex-col
         justify-center items-start p-5"
@@ -11,7 +11,7 @@ const About = () => {
           <h2 className="text-3xl mb-5 font-light">Can I borrow a pencil?</h2>
           <p className="font-thin text-lg">
             A student asking to borrow any form of school supplies may seem like
-            a simple request, but for many, it may be an underlying problem that
+            a simple request, but for some, it could be an underlying problem that
             faces families around the country.
           </p>
         </div>
@@ -22,7 +22,7 @@ const About = () => {
           <div className="border-solid border-2 border-sky-500 w-3/4 h-1/2 relative">
             <div className="border-solid border-2 border-sky-500 h-full w-full bg-sky-900 absolute right-5 top-5">
               <div className="w-full h-full text-center py-3 px-2">
-                <h3 className="mb-3">
+                <h3 className="mb-4">
                   Cost of School Supplies<br></br>
                   <i>On Average</i>
                 </h3>
@@ -46,7 +46,7 @@ const About = () => {
         </div>
       </div>
 
-      <div className="flex items-center justify-around">
+      <div className="flex items-center justify-around mx-auto px-10">
         <div className="bg-sky-900 w-1/2 h-80 rounded-md mr-2 p-5 relative overflow-hidden">
           <h3 className="text-2xl font-light mb-2 mt-0 text-center">
             Who needs help?
@@ -83,7 +83,6 @@ const About = () => {
             The national average that teachers spend on classroom supplies is
             around $750 of their own money every year. 30% of teachers spend
             $1000 or more on supplies.</p>
-            <br></br>
             <br></br>
             <div className="teacher-background absolute"></div>
             <i>Can't teachers just write off the expenses?</i>
